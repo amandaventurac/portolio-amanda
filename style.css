@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 50px;
+    min-height: 100vh;
+}
+
+#sobre {
+    background-color: #A8E6CF;
+    background-image:radial-gradient(#d1d5db 1px, transparent 1px);
+    background-size: 25px 25px;
+}
+
+#formacao {
+    background-color: #7FDBDA;
+    background-image:radial-gradient(#d1d5db 1px, transparent 1px);
+    background-size: 25px 25px;
+}
+
+#portfolio {
+    background-color: #5BC0EB;
+    background-image:radial-gradient(#d1d5db 1px, transparent 1px);
+    background-size: 25px 25px;
+}
+
+#contato {
+    background-color: #A7D8F0;
+    background-image:radial-gradient(#d1d5db 1px, transparent 1px);
+    background-size: 25px 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 80%;
+}
